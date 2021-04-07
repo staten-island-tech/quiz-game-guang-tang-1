@@ -1,3 +1,23 @@
 body {
   background-color: red;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.btn {
+  font-size: 2rem;
+  font-family: Trebuchet MS;
+  border-radius: 1rem;
+  padding: 0.75rem;
+  border-color: blue;
+}
+
+#next-btn{
+  color:green;
+}
+
+.hide {
+  opacity: 10%;
 }
