@@ -30,8 +30,10 @@ body {
 }
 
 .btn-grid {
+  display: flex;
+  flex-direction:column;
   text-align: center;
-  padding: 2rem;
+  margin: 0rem 30rem;
 }
 
 .control {
@@ -42,4 +44,12 @@ body {
 .btn:hover {
   opacity: 20%;
   transition: 200ms ease-out;
+}
+
+.questions-text {
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  text-shadow: 0.4rem 0.4rem black;
+  padding: 5rem;
 }
