@@ -1,4 +1,4 @@
-/* [
+/*[
   {
     questionContent: "What kind of energy do Sorcerors in Jujutsu Kaisen?",
     choices: [
@@ -18,7 +18,8 @@
     ],
   },
   {
-    questionContent: "Which of these characters are not a part of the Big Three?",
+    questionContent:
+      "Which of these characters are not a part of the Big Three?",
     choices: [
       { choice: "Goku", value: 1 },
       { choice: "Naruto", value: 0 },
@@ -54,7 +55,8 @@
     ],
   },
   {
-    questionContent: "Which of these is studios was formed specifically for Mushoku Tensei?",
+    questionContent:
+      "Which of these is studios was formed specifically for Mushoku Tensei?",
     choices: [
       { choice: "MAPPA", value: 0 },
       { choice: "Studio Bind", value: 0 },
@@ -63,7 +65,8 @@
     ],
   },
   {
-    questionContent: "Which of these movies grossed the most at the box office?",
+    questionContent:
+      "Which of these movies grossed the most at the box office?",
     choices: [
       { choice: "A Silent Voice", value: 0 },
       { choice: "Weathering With You", value: 0 },
@@ -72,10 +75,16 @@
     ],
   },
 ];
-
 */
+import { DOMSelectors } from "./dom";
+import { questions } from "./questions";
 
-import {DOMSelectors} from "./dom";
-import {questions} from "./questions"
+const startButton = document.getElementById("start-btn");
 
+startButton.addEventListener("click", startQuiz);
 
+function startQuiz() {
+  console.log("started");
+}
+
+function nextQuestion() {}
