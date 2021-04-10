@@ -2,7 +2,7 @@ const {
 
 };
 
-[
+/* [
   {
     questionContent: "What kind of energy do Sorcerors in Jujutsu Kaisen?",
     choices: [
@@ -76,3 +76,8 @@ const {
     ],
   },
 ];
+
+*/
+const startButton = document.getElementById('start-btn')
+const nextButton = document.getElementById('next-btn')
+const answerChoices = document.getElementById('answer-choices')

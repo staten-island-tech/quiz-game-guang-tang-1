@@ -1,8 +1,11 @@
 body {
-  background-color: red;
+  background-color: orange;
   font-size: 62.5%;
   box-sizing: border-box;
   font-family: Trebuchet MS;
+  background-image: url(/src/img/animebg.jpg); 
+  /* backdrop-filter: blur(0.07rem); */
+  background-size: cover;
   margin: 0 auto;
   padding: 0 auto;
 }
@@ -15,10 +18,23 @@ body {
   border-color: blue;
 }
 
+.title {
+  color: red;
+  font-size:5rem;
+  text-shadow: 0.2rem 0.2rem black;
+  text-align:center;
+}
+
 #next-btn{
   color:green;
 }
 
-.hide {
-  opacity: 10%;
+.btn-grid {
+  text-align: center;
+  padding: 2rem;
+}
+
+.control {
+  text-align:center;
+  padding: 2rem;
 }
