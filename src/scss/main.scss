@@ -38,3 +38,8 @@ body {
   text-align:center;
   padding: 2rem;
 }
+
+.btn:hover {
+  opacity: 20%;
+  transition: 200ms ease-out;
+}
