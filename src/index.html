@@ -1,28 +1,18 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="scss/main.scss" />
-    <title>Otaku Quiz</title>
-  </head>
-  <body>
-    <h1 class="title">The Otaku Quiz</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="./scss/main.scss">
+</head>
+<body>
     <div class="container">
-      <div id="questions">
-        <div class= "questions-text" id="questions-text"></div>
-        <div id="answer-choices" class="btn-grid">
-          <button class="btn btn1" id="answer1">Choice 1</button>
-          <button class="btn btn2" id="answer2">Choice 2</button>
-          <button class="btn btn3" id="answer3">Choice 3</button>
-          <button class="btn btn4" id="answer4">Choice 4</button>
+        <div id="home" class="flex-column flex-center">
+            <h1>Are you Ready?</h1>
+            <a href="game.html" class="btn">Play</a>
+            <a href="scoreboard.html" id="highscore-btn" class="btn">High Scores<i class="fas fa-crown"></i></a>
         </div>
-        <div id="control" class="control">
-          <button id="start-btn" class="btn">Ikimashou!</button>
-          <button id="back-btn" class ="btn">Back!</button>
-          <button id="next-btn" class="btn hide">Next!</button>
-        </div>
-
-    <script src="./js/index.js"></script>
-  </body>
+    </div>
+</body>
 </html>

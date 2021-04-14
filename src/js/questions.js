@@ -1,6 +1,42 @@
-const questions = [
+let questions = [
 
   {
+    question: 'Which of these movies grossed the most at the box office?',
+    choice1: 'A Silent Voice',
+    choice2: 'Weathering With You',
+    choice3: 'Your Name',
+    choice4: 'Spirited Away',
+    answer: 4,
+},
+{
+    question: "Which of these games is from a Japanese company?",
+    choice1: "Genshin Impact",
+    choice2: "Granblue Fantasy",
+    choice3: "Arknights",
+    choice4: "Azur Lane",
+    answer: 2,
+},
+{
+    question: "What kind of energy do Sorcerors in Jujutsu Kaisen?",
+    choice1: "Spiritual",
+    choice2: "Condensed",
+    choice3: "Cursed",
+    choice4: "Soul",
+    answer: 3,
+},
+{
+    question: "Which of these is studios was formed specifically for Mushoku Tensei?",
+    choice1: "MAPPA",
+    choice2: "A-1 Pictures",
+    choice3: "Wit Studio",
+    choice4: "Studio Bind",
+    answer: 4,
+}
+]
+
+export {questions};
+
+/*  {
     questionContent: "What kind of energy do Sorcerors in Jujutsu Kaisen?",
       choice1: "Spiritual",
       choice2: "Cursed",
@@ -46,7 +82,7 @@ const questions = [
       choice2: "Grave of the Fireflies",
       choice3: "Howl's Moving Castle",
       choice4: "Princess Mononoke",
-      answer: 2,
+      answer: 2, 
   },
   {
     questionContent: "Which of these is studios was formed specifically for Mushoku Tensei?",
@@ -65,6 +101,4 @@ const questions = [
       answer: 1,
   },
 
-]
-
-export {questions};
+] */

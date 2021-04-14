@@ -1,4 +1,5 @@
 const DOMSelectors = {
+    question: document.querySelector('#questions-text'),
     choiceOne: document.querySelector('#answer-choices button:nth-child(1)'),
     choiceTwo: document.querySelector('#answer-choices button:nth-child(2)'),
     choiceThree: document.querySelector('#answer-choices button:nth-child(3)'),
